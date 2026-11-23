@@ -101,7 +101,7 @@ Flyer links already sent to clients point at the old site and will stop working 
 
 ## External services the pages load
 
-- Fonts: Google Fonts (Fraunces, Figtree)
+- Fonts: Google Fonts (Source Serif 4, Figtree)
 - Property pages: an embedded Google Map (no API key needed)
 
 Everything else is served from this site.

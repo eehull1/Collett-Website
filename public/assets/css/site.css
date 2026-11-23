@@ -16,10 +16,10 @@
   --line-strong: rgba(8, 47, 67, 0.24);
   --line-dark: rgba(255, 255, 255, 0.16);
 
-  --font-display: "Fraunces", Georgia, "Times New Roman", serif;
+  --font-display: "Source Serif 4", Georgia, "Times New Roman", serif;
   --font-sans: "Figtree", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 
-  --fs-hero: clamp(2.6rem, 5.4vw, 4.6rem);
+  --fs-hero: clamp(2.5rem, 4.6vw, 4rem);
   --fs-h1: clamp(2.25rem, 4.2vw, 3.6rem);
   --fs-h2: clamp(1.85rem, 3vw, 2.6rem);
   --fs-h3: 1.3rem;
@@ -55,10 +55,10 @@ body {
 img { max-width: 100%; height: auto; display: block; }
 a { color: var(--blue-ink); text-decoration-thickness: 1px; text-underline-offset: 3px; }
 a:hover { color: var(--navy); }
-h1, h2, h3 { text-wrap: balance; font-family: var(--font-display); font-weight: 500; line-height: 1.12; letter-spacing: -0.015em; margin: 0 0 0.5em; color: var(--navy); font-variation-settings: "opsz" 96; }
+h1, h2, h3 { text-wrap: balance; font-family: var(--font-display); font-weight: 500; line-height: 1.12; letter-spacing: -0.015em; margin: 0 0 0.5em; color: var(--navy); font-variant-numeric: lining-nums; }
 h1 { font-size: var(--fs-h1); }
 h2 { font-size: var(--fs-h2); }
-h3 { font-size: var(--fs-h3); line-height: 1.25; font-variation-settings: "opsz" 36; }
+h3 { font-size: var(--fs-h3); line-height: 1.25; }
 p { margin: 0 0 1em; }
 button, input, select, textarea { font: inherit; color: inherit; }
 :focus-visible { outline: 3px solid var(--blue); outline-offset: 2px; border-radius: 2px; }
@@ -184,7 +184,6 @@ button, input, select, textarea { font: inherit; color: inherit; }
 }
 .hero-grid { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr); gap: clamp(32px, 5vw, 72px); align-items: center; position: relative; z-index: 1; }
 .hero h1 { font-size: var(--fs-hero); font-weight: 400; letter-spacing: -0.025em; line-height: 1.02; margin-bottom: 0.35em; }
-.hero h1::first-line { font-style: normal; }
 .hero .lead { font-size: var(--fs-lead); color: #3f4f58; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin: 28px 0 36px; }
 .quick-search {
@@ -677,3 +676,6 @@ button, input, select, textarea { font: inherit; color: inherit; }
 @media (max-width: 520px) { .br-lg { display: none; } }
 .chk input { flex: none; align-self: center; }
 .f-checks .chk { line-height: 1.3; }
+
+/* level (lining) numerals wherever the display face shows numbers */
+.stats b, .svc-num, .fp-list b, .tl-year, .rank-list li::before, .art-nav a { font-variant-numeric: lining-nums; }

@@ -248,7 +248,7 @@ def page(path, title, body, active="", description=None, canonical=None, og_imag
 <link rel="apple-touch-icon" href="/assets/img/brand/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/css/site.css?v={ASSET_VERSION}">
 {extra_head}
 </head>
@@ -563,7 +563,7 @@ def build_home():
   <div class="wrap hero-grid">
     <div class="hero-copy">
       <p class="eyebrow">Commercial real estate · Since {SITE['founded']}</p>
-      <h1>Building the centers <br class="br-lg">communities count on.</h1>
+      <h1>Building the centers communities count on.</h1>
       <p class="lead">Collett develops, manages and leases retail and mixed-use properties across the Southeast and Southwest, from a single pad site to a million-square-foot town center.</p>
       <div class="hero-actions">
         <a class="btn btn-primary" href="/properties/">Browse properties {icon('arrow')}</a>

@@ -1,0 +1,9 @@
+# Redirects for Netlify and Cloudflare Pages (other hosts: see README).
+# Most old collettre.com addresses (/about-us, /properties/<name>, /team/<name>,
+# /press/<name>, /contact-us, ...) keep working as-is because the new pages
+# live at the same paths. These cover the rest.
+/home                 /                                   301
+/services/*           /services/                          301
+/properties_csv.html  /properties/                        301
+/collett-capital      http://collettcapital.com/          301
+/tenant-portal        https://commercialcafe.securecafe3.com/newtenantportal/content2/login/?companyID=2174  302

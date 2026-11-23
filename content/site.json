@@ -1,0 +1,216 @@
+{
+  "name": "Collett",
+  "domain": "https://www.collettre.com",
+  "description": "Collett is a full-service commercial real estate firm based in Charlotte, NC, specializing in development, property management, tenant representation and brokerage across the Southeast and Southwest since 1987.",
+  "founded": 1987,
+  "retailSfDeveloped": "18M+",
+  "tenantPortal": "https://commercialcafe.securecafe3.com/newtenantportal/content2/login/?companyID=2174",
+  "maintenanceRequest": "https://commercialcafe.securecafe3.com/newtenantportal/content2/login/?companyID=2174",
+  "social": {
+    "linkedin": "https://www.linkedin.com/company/collett-&-associates",
+    "facebook": "https://www.facebook.com/pages/Collett/147422758613141",
+    "x": "https://twitter.com/collettandassoc"
+  },
+  "contactForm": {
+    "_note": "Set 'endpoint' to a form service URL (e.g. Formspree, Basin, Netlify Forms) to receive submissions by email. Leave empty to send visitors to their email app addressed to 'email' instead.",
+    "endpoint": "",
+    "email": ""
+  },
+  "phones": {
+    "main": "704.206.8300",
+    "fax": "704.335.8654",
+    "maintenance": "704.206.8300",
+    "leasing": "704.206.8300",
+    "emergency": "866.612.4279"
+  },
+  "offices": [
+    {
+      "key": "charlotte",
+      "teamOffice": "Charlotte",
+      "name": "Charlotte",
+      "label": "Corporate Office",
+      "lines": [
+        "1111 Metropolitan Avenue, Suite 700",
+        "Charlotte, NC 28204-3424"
+      ],
+      "phone": "704.206.8300",
+      "fax": "704.335.8654",
+      "mailing": [
+        "P.O. Box 36799",
+        "Charlotte, NC 28236-6799"
+      ],
+      "map": "1111 Metropolitan Avenue, Suite 700, Charlotte, NC 28204"
+    },
+    {
+      "key": "greenville",
+      "teamOffice": "South Carolina",
+      "name": "Greenville",
+      "label": "South Carolina",
+      "lines": [
+        "217-A East Washington Street",
+        "Greenville, SC 29601"
+      ],
+      "phone": "864.752.0300",
+      "fax": "864.752.0358",
+      "map": "217 East Washington Street, Greenville, SC 29601"
+    },
+    {
+      "key": "dallas",
+      "teamOffice": "Texas",
+      "name": "Dallas",
+      "label": "Texas",
+      "lines": [
+        "2626 Cole Avenue, 3rd Floor",
+        "Dallas, TX 75204"
+      ],
+      "phone": "214.996.9999",
+      "fax": "214.445.6304",
+      "map": "2626 Cole Avenue, Dallas, TX 75204"
+    },
+    {
+      "key": "morganton",
+      "teamOffice": "Morganton",
+      "name": "Morganton",
+      "label": "Western North Carolina",
+      "lines": [
+        "118-C W. Union Street",
+        "Morganton, NC 28655"
+      ],
+      "phone": "828.430.8674",
+      "fax": "828.430.8614",
+      "map": "118 W Union Street, Morganton, NC 28655"
+    }
+  ],
+  "about": [
+    "Founded in 1987 in Charlotte, North Carolina, by brothers John and Robert Collett, Collett is made up of a team of dedicated real estate professionals whose main goal is to provide the highest level of service possible to our clients.",
+    "Institutions, corporations and individuals – whether developers, owners or tenants – trust and rely on our experienced and knowledgeable professionals. Team members work together to serve our clients in the areas of development, leasing, property management, strategic asset management, investment sales and brokerage."
+  ],
+  "rankings": [
+    "Largest Area Commercial Real Estate Firm Ranked by Number of Commission-Only Brokers",
+    "Charlotte Area Largest Commercial Real Estate Developers Ranked by SF, 2007–11",
+    "Largest Area Commercial Real Estate Firms",
+    "Area's Largest Property Management Companies",
+    "Largest Area Commercial Real Estate Developers Ranked by SF Developed, 2005–09 – Charlotte Area",
+    "Largest Area Commercial Real Estate Developers Ranked by SF Developed in 2009 – Charlotte Area",
+    "Largest Area Commercial Real Estate Firm Ranked by Number of Commission-Only Brokers in 2012 – Charlotte Area"
+  ],
+  "services": [
+    {
+      "slug": "development",
+      "name": "Development",
+      "short": "Ground-up retail and mixed-use projects, from freestanding pads to million-square-foot centers.",
+      "lead": "Projects that become the cornerstone of the communities they serve.",
+      "body": [
+        "Over the last 30 years, Collett has played a significant role in shaping many Southeastern and South-Western communities through its passion for partnering with civic leaders, retailers and investors to address the needs of the community first. Whether we are developing in a small community or large urban cities, Collett specializes in balancing the needs of all stakeholders involved to create projects that become the cornerstone of each and every community we touch. As John Collett always preaches, “we are only as good as our last deal.” This mantra drives each member of the Development Team to focus on the small details that differentiate Collett from its peers in the industry.",
+        "Today Collett continues its long history of developing first class projects across a wide swath of the country. With key personnel located in Charlotte, NC, Dallas, TX, and Greenville, SC we are ideally suited to address the needs of our clients throughout the Southeast and Southwest. To date we have successfully completed the development of 18 million square feet of retail projects from small freestanding facilities to million square foot plus multi-tenant projects.",
+        "When development opportunities arise, we respond immediately and without hesitation to maximize financial returns whether for our own account or on behalf of our many valuable clients. We excel at identifying needs, developing partnerships, and coordinating multiple facets of the development business to come up with solutions that reward all the stakeholders involved."
+      ],
+      "points": [
+        "Site selection and market research",
+        "Entitlements and civic partnerships",
+        "Construction oversight",
+        "Lease-up and long-term positioning"
+      ],
+      "propertyFilter": "developed",
+      "teamGroup": "Development"
+    },
+    {
+      "slug": "management",
+      "name": "Management",
+      "short": "Hands-on property and asset management that keeps retail and mixed-use centers performing.",
+      "lead": "Accessible, responsive management for the entire life cycle of a property.",
+      "body": [
+        "We offer traditional property management services, maintaining retail properties and helping them operate efficiently. Owners and tenants can count on our accessibility, responsiveness and prompt personal service, as well as our attention to detail and experience.",
+        "Collett can also act as a trusted consultant that helps owners develop long-term investment strategies for their retail or mixed-use centers. Taking on the role of an asset or real estate manager, we can help a client determine the return on investment for updating or expanding a property, or what actions will improve its selling price. Through forecasting, budgeting and modeling, we can help a client maximize their return during the entire life cycle of a property."
+      ],
+      "points": [
+        "Day-to-day property operations",
+        "Lease administration and accounting",
+        "Asset strategy, budgeting and forecasting",
+        "Renovation and expansion analysis"
+      ],
+      "propertyFilter": "managed",
+      "teamGroup": "Management"
+    },
+    {
+      "slug": "tenant-representation",
+      "name": "Tenant Representation",
+      "short": "Finding the right sites for national and local retailers across the Southeast.",
+      "lead": "The right site, the right terms, for retailers growing across the Southeast.",
+      "body": [
+        "Collett assists a diverse base of national and local retailers in making informed decisions regarding their leasing transactions. Using extensive knowledge of the real estate market, industry relationships, and in-depth analysis, we pursue and acquire real estate sites that allow our clients to achieve optimal success for their businesses.",
+        "Through examining business objectives and guiding clients through each step of the leasing process, we successfully place tenants in major markets across the Southeast."
+      ],
+      "points": [
+        "Market and site analysis",
+        "Lease negotiation",
+        "Multi-unit expansion strategy",
+        "Guidance through each step of the process"
+      ],
+      "showClients": true,
+      "teamGroup": "Brokerage"
+    },
+    {
+      "slug": "brokerage",
+      "name": "Brokerage",
+      "short": "Leasing, listing and investment sales backed by market analysis and long relationships.",
+      "lead": "Lease-up strategies designed to maximize the performance of real estate assets.",
+      "body": [
+        "The Collett brokerage team serves clients in multiple ways: by providing market analysis, tenant representation, property listing and marketing services.",
+        "Whatever a client’s particular needs are, our brokers will find strategies and solutions that truly fit their needs. We approach everything with an open mind. Each situation is carefully assessed, and successful programs are then formulated. Our lease-up strategies are designed to maximize the performance of real estate assets.",
+        "Each Collett associate works in two ways: as a commercial leasing specialist within a specific category, and as a team member whose crossover skills bring strength to every project. Respected in the industry for their integrity and with a reputation for achieving results, our associates are proficient at maintaining high occupancy rates."
+      ],
+      "points": [
+        "Landlord leasing and lease-up",
+        "Investment sales",
+        "Land and outparcel sales",
+        "Property marketing"
+      ],
+      "licenses": [
+        {
+          "name": "North Carolina Real Estate Commission",
+          "url": "https://www.ncrec.gov/"
+        },
+        {
+          "name": "South Carolina Real Estate Commission",
+          "url": "https://llr.sc.gov/re/"
+        },
+        {
+          "name": "Georgia Real Estate Commission",
+          "url": "https://grec.state.ga.us/"
+        },
+        {
+          "name": "Texas Real Estate Commission",
+          "url": "https://www.trec.texas.gov/"
+        }
+      ],
+      "propertyFilter": "available",
+      "teamGroup": "Brokerage"
+    }
+  ],
+  "companies": [
+    {
+      "name": "Collett Industrial",
+      "url": "https://www.collettindustrial.com/",
+      "text": "A development and acquisition platform focused on industrial properties across the U.S., founded in 2019."
+    },
+    {
+      "name": "Collett Capital",
+      "url": "http://collettcapital.com/",
+      "text": "An affiliated Collett company focused on commercial real estate investment."
+    }
+  ],
+  "home": {
+    "heroPhotos": [
+      "assets/img/properties/camperdown-broad-street-and-south-main-street-greenville-sc-29601/2.jpg",
+      "assets/img/properties/the-pointe-at-barclay-independence-blvd-and-s-17th-street-wilmington-nc-28410/4.jpg",
+      "assets/img/properties/university-town-center-i-and-ii-2010-24th-avenue-northwest-norman-ok-73069/1.jpg"
+    ],
+    "featured": [
+      "markley-main-1051-s-main-street-greenville-sc-29601",
+      "camperdown-broad-street-and-south-main-street-greenville-sc-29601",
+      "the-pointe-at-barclay-independence-blvd-and-s-17th-street-wilmington-nc-28410",
+      "washington-commons-2747-w-washington-street-stephenville-tx-76401"
+    ]
+  }
+}
